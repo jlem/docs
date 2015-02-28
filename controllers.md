@@ -141,7 +141,7 @@ By default, all resource controller actions have a route name; however, you can 
 					['names' => ['create' => 'photo.build']]);
 
 <a name="nested-resource-controllers"></a>
-#### [Handling Nested Resource Controllers](#nested-resource-controllers)
+#### [Handling Nested Resource Controllers][]
 
 To "nest" resource controllers, use "dot" notation in your route declaration:
 
