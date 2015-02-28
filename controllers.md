@@ -140,7 +140,8 @@ By default, all resource controller actions have a route name; however, you can 
 	Route::resource('photo', 'PhotoController',
 					['names' => ['create' => 'photo.build']]);
 
-#### Handling Nested Resource Controllers
+<a name="nested-resource-controllers"></a>
+[#### Handling Nested Resource Controllers](#nested-resource-controllers)
 
 To "nest" resource controllers, use "dot" notation in your route declaration:
 
